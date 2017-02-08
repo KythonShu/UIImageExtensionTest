@@ -13,6 +13,8 @@
 		444BEDDA1E4AFA1400A608BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 444BEDD81E4AFA1400A608BB /* Main.storyboard */; };
 		444BEDDC1E4AFA1400A608BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 444BEDDB1E4AFA1400A608BB /* Assets.xcassets */; };
 		444BEDDF1E4AFA1400A608BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 444BEDDD1E4AFA1400A608BB /* LaunchScreen.storyboard */; };
+		444BEDEB1E4AFA6800A608BB /* UIImage+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 444BEDEA1E4AFA6800A608BB /* UIImage+Extensions.m */; };
+		444BEDED1E4B013F00A608BB /* IMG_5577.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 444BEDEC1E4B013F00A608BB /* IMG_5577.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		444BEDDB1E4AFA1400A608BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		444BEDDE1E4AFA1400A608BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		444BEDE01E4AFA1400A608BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		444BEDE91E4AFA6800A608BB /* UIImage+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extensions.h"; sourceTree = "<group>"; };
+		444BEDEA1E4AFA6800A608BB /* UIImage+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extensions.m"; sourceTree = "<group>"; };
+		444BEDEC1E4B013F00A608BB /* IMG_5577.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_5577.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +63,13 @@
 		444BEDCE1E4AFA1400A608BB /* UIImageExtensionTest */ = {
 			isa = PBXGroup;
 			children = (
+				444BEDEC1E4B013F00A608BB /* IMG_5577.JPG */,
 				444BEDD21E4AFA1400A608BB /* AppDelegate.h */,
 				444BEDD31E4AFA1400A608BB /* AppDelegate.m */,
 				444BEDD51E4AFA1400A608BB /* ViewController.h */,
 				444BEDD61E4AFA1400A608BB /* ViewController.m */,
+				444BEDE91E4AFA6800A608BB /* UIImage+Extensions.h */,
+				444BEDEA1E4AFA6800A608BB /* UIImage+Extensions.m */,
 				444BEDD81E4AFA1400A608BB /* Main.storyboard */,
 				444BEDDB1E4AFA1400A608BB /* Assets.xcassets */,
 				444BEDDD1E4AFA1400A608BB /* LaunchScreen.storyboard */,
@@ -141,6 +149,7 @@
 				444BEDDF1E4AFA1400A608BB /* LaunchScreen.storyboard in Resources */,
 				444BEDDC1E4AFA1400A608BB /* Assets.xcassets in Resources */,
 				444BEDDA1E4AFA1400A608BB /* Main.storyboard in Resources */,
+				444BEDED1E4B013F00A608BB /* IMG_5577.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +163,7 @@
 				444BEDD71E4AFA1400A608BB /* ViewController.m in Sources */,
 				444BEDD41E4AFA1400A608BB /* AppDelegate.m in Sources */,
 				444BEDD11E4AFA1400A608BB /* main.m in Sources */,
+				444BEDEB1E4AFA6800A608BB /* UIImage+Extensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +283,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9PP5QAAG5K;
 				INFOPLIST_FILE = UIImageExtensionTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Liuyang-Shu.UIImageExtensionTest";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -285,6 +296,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9PP5QAAG5K;
 				INFOPLIST_FILE = UIImageExtensionTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Liuyang-Shu.UIImageExtensionTest";
 				PRODUCT_NAME = "$(TARGET_NAME)";

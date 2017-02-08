@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "UIImage+Extensions.h"
 @interface ViewController : UIViewController
 
 
